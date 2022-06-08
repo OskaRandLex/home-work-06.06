@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  padding-top: 5%;
+}
+
+.massage-section {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  height: 50px;
+}
+
+.section {
+  padding: 50px;
+  width: 70%;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+.section .checkbox-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section .enter-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .enter-div button {
+  width: 250px;
+  height: 50px;
+}
+
+.img-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+}
+
+.img-section .door-section {
+  width: 50%;
+}
+
+.img-section .door-section img {
+  width: 300px;
+  height: 300px;
+  display: none;
+}
+
+.img-section .alarm-section {
+  width: 50%;
+}
+
+.img-section .alarm-section img {
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    padding-top: 5%;
+}
+
+.massage-section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    height: 50px;
+}
+
+.section {
+    padding: 50px;
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid black;
+
+    .checkbox-section {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .enter-div {
+        display: flex;
+        justify-content: center;
+
+        button {
+            width: 250px;
+            height: 50px;
+        }
+    }
+}
+
+.img-section {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+
+
+    .door-section {
+        width: 50%;
+
+
+        img {
+            width: 300px;
+            height: 300px;
+            display: none;
+        }
+    }
+
+    
+    
+
+
+    .alarm-section {
+        width: 50%;
+
+        img {
+            width: 200px;
+            height: 200px;
+            display: none;
+        } 
+    }
+    
+    
+    
+}
